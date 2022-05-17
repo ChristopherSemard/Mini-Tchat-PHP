@@ -14,5 +14,3 @@
     <div class="">
 
     </div>
-
-</main>

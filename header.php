@@ -15,7 +15,7 @@
 </head>
 
 <body class="d-flex flex-column vh-100" >
-    <header class="p-3 text-white bg-danger">
+    <header class="p-3 text-white border-bottom border-dark">
         <div class="container">
             <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-between">
                 <a href="./index.php" class="mb-2 mb-lg-0 text-white text-decoration-none">
@@ -32,4 +32,4 @@
             </div>
         </div>
     </header>
-    <main class="container py-4 col-4">
+    <main class="container py-4 col-lg-4">
