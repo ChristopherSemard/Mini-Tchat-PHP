@@ -84,17 +84,6 @@ function checkUserAlreadyExist($pseudo, $users){
 
 // Création de la connexion
 function createConnection($pseudo){
-    
-    // Cookie qui expire dans un an
-    setcookie(
-        'LOGGED_USER',
-        $pseudo,
-        [
-            'expires' => time() + 365*24*3600,
-            'secure' => true,
-            'httponly' => true,
-        ]
-    );
 
     $_SESSION['LOGGED_USER'] = $pseudo;
 }
