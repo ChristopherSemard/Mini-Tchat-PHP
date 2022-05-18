@@ -2,7 +2,7 @@
 
     </main>
 
-    <footer class="container-fluid mt-auto text-center py-4 border-top border-dark">
+    <footer class="container-fluid mt-auto text-center py-4 border-top border-dark vh-10">
         <p>SALUT C'EST LE FOOTER</p>
     </footer>
 

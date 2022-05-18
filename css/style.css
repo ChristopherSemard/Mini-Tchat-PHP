@@ -10,10 +10,35 @@ color: white;
 } 
 
 
+.vh-10{
+    height: 10vh;
+}
+.vh-80{
+    height: 80vh;
+}
 .h-10{
     height: 10%;
 }
-
 .h-80{
     height: 80%;
 }
+/* #messages-list div:nth-child(1){
+    background-color: red !important;
+} */
+
+
+
+
+/* .message{
+    animation: message 1s ease-in-out;
+} */
+
+/* Animations */
+/* @keyframes message {
+    0% {
+        transform: translateY(2000px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+} */
