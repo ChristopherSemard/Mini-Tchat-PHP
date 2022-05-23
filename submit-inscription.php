@@ -7,9 +7,9 @@ include_once('./bdd/data-bdd.php');
 include_once('header.php');
 
 // Définition des données récupérées
-$pseudo = $_POST['pseudo'];
-$password = $_POST['password'];
-$passwordConfirm = $_POST['password-confirm'];
+$pseudo = strip_tags($_POST['pseudo']);
+$password = strip_tags($_POST['password']);
+$passwordConfirm = strip_tags($_POST['password-confirm']);
 $color = $_POST['color'];
 
 // Check si les informations sont valides

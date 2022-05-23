@@ -23,8 +23,6 @@
     </div>
 
     <?php 
-
-        
         if(isset($_SESSION['LOGGED_USER'])){
             echo '  <form class="container mt-auto h-10 d-flex align-items-end" method="POST" action="./submit-message.php">
                         <div class="row  w-100">
@@ -35,8 +33,6 @@
                         </div>
                     </form>    ';
         }
-        
-        
         else{
             echo '  <form class="container mt-auto h-10 d-flex align-items-end" method="POST" action="./submit-message.php">
                         <div class="row  w-100">
@@ -46,7 +42,5 @@
                             <button type="submit" class="btn btn-primary col-2" disabled><i class="bi bi-send-fill"></i></button>
                         </div>
                     </form>    ';
-
-
         }
     ?>

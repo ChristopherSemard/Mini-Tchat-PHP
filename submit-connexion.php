@@ -6,8 +6,8 @@ include_once('./bdd/data-bdd.php');
 include_once('header.php');
 
 // Définition des données récupérées
-$pseudo = $_POST['pseudo'];
-$password = $_POST['password'];
+$pseudo = strip_tags($_POST['pseudo']);
+$password = strip_tags($_POST['password']);
 
 
 

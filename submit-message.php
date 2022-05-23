@@ -8,7 +8,7 @@ include_once('./bdd/data-bdd.php');
 include_once('header.php');
 
 // Définition des données récupérées
-$message = $_POST['message'];
+$message = strip_tags($_POST['message']);
 
 $userId = retrieveUser($_SESSION['LOGGED_USER'], $users);
 addMessageBdd($bdd, $message, $userId);
